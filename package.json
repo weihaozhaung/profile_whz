@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel ./src/index.html && parcel watch ./src/index.html",
-    "build": "parcel build"
+    "build": "npm run build"
   },
   "engines": {
     "node": "16.x"
