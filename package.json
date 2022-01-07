@@ -5,8 +5,11 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel index.html && parcel watch index.html",
+    "start": "parcel ./src/index.html && parcel watch ./src/index.html",
     "build": "parcel build"
+  },
+  "engines": {
+    "node": "16.x"
   },
   "repository": {
     "type": "git",
@@ -27,11 +30,9 @@
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
-    "express": "^4.17.2",
     "jquery": "^3.6.0",
     "nodemon": "^2.0.15",
     "popper.js": "^1.16.1",
-    "sass": "^1.46.0",
     "vanilla-tilt": "^1.7.2"
   }
 }
